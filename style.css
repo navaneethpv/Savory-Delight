@@ -1,26 +1,12 @@
-:root {
-    --h1-font-size: 2 rem;
-    --p-font-size: 1.2 rem;
-}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    background-image: url('/Images/background.jpeg');
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-header .logo{
-    display: flex;
-    justify-content: start;
-    width: 100%;
-    height: 12vh;
-}
-header .logo img{
-    width: 213px;
-    height: 175px;
-    margin: -13px 0px 0px 13px;
-    
+header{
+    display: grid;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
 }
