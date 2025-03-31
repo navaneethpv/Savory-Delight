@@ -42,7 +42,7 @@ nav{
 }
 ul{
     position: absolute;
-    left: 23%;
+    left: 32%;
 }
 li{
     display: inline-block;
@@ -57,8 +57,8 @@ li a{
 .buttons{
     display: flex;
     align-items: center;
-    justify-content: normal; /* Updated for tighter grouping */
-    margin-right: -10rem;
+    justify-content: flex-end;
+    margin-right: 4rem;
     width: 50%;
 }
 .bx{
