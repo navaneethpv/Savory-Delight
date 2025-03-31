@@ -3,7 +3,6 @@
     --secondary-color: #e1dd97cf;
     --big-font: 2.5rem;
     --small-font: 1.3rem;
-
 }
 
 *{
@@ -30,7 +29,6 @@ header{
     width: 46%;
     height: 10vh;
     object-fit: cover;
-
 }
 nav{
     width: 100%;
@@ -48,9 +46,8 @@ ul{
 li{
     display: inline-block;
     margin: 0 34px;
-
 }
- li a{
+li a{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: var(--small-font); 
@@ -59,15 +56,14 @@ li{
 .buttons{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: normal; /* Updated for tighter grouping */
     margin-right: 3rem;
     width: 50%;
 }
 .bx{
     color: var(--secondary-color);
-    font-size: 2rem;
-    margin-left: 1rem;
-    margin: auto;
+    font-size: 1.4rem;
+    margin-left: 1rem; /* Reduced margin for closer icons */
 }
 .order-btn{
     display: inline-block;
@@ -77,4 +73,5 @@ li{
     border-radius:45px;
     font-size: 1rem;
     color: white;
+    margin-left: 10px;
 }
