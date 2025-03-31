@@ -23,10 +23,11 @@ header{
     width: 27%;
     height: 11vh;
     display: inline-block;
-    margin-left: 3rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
 }
 .logo img{
-    width: 46%;
+    width: 75%;
     height: 10vh;
     object-fit: cover;
 }
@@ -57,7 +58,7 @@ li a{
     display: flex;
     align-items: center;
     justify-content: normal; /* Updated for tighter grouping */
-    margin-right: 3rem;
+    margin-right: -10rem;
     width: 50%;
 }
 .bx{
