@@ -1,6 +1,6 @@
 :root{
     --primary-color: #0d6efd;
-    --secondary-color: #ebdf2c;
+    --secondary-color: #e1dd97cf;
     --big-font: 2.5rem;
     --small-font: 1.3rem;
 
@@ -10,16 +10,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box; 
-    background-image: url('./images/background.jpeg');
+}
+body{
+   background-image: url(./images/background.jpeg);
+   background-repeat: none;
 }
 header{
     width: 100%;
     display: flex; 
+    z-index: 1000;
 }
 .logo{
     width: 27%;
     height: 11vh;
     display: inline-block;
+    margin-left: 3rem;
 }
 .logo img{
     width: 46%;
@@ -34,10 +39,11 @@ nav{
     align-items: center;
     margin: 10px 20px;
     position: relative;
+    float: right;
 }
 ul{
     position: absolute;
-    right: 11%;
+    left: 23%;
 }
 li{
     display: inline-block;
@@ -48,5 +54,22 @@ li{
     text-decoration: none;
     color: var(--secondary-color);
     font-size: var(--small-font); 
-    font-weight: 500;
+    font-weight:600;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3rem;
+    width: 50%;
+}
+ i{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+.bx-search-alt{
+    color: var(--secondary-color);
+    font-size: 2rem;
+    margin-left: 1rem;
 }
