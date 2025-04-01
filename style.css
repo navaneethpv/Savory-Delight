@@ -1,7 +1,7 @@
 :root{
     --primary-color: #0d6efd;
     --secondary-color: #e1dd97cf;
-    --big-font: 2.5rem;
+    --big-font: 3.5rem;
     --small-font: 1.3rem;
 }
 
@@ -10,11 +10,7 @@
     padding: 0;
     box-sizing: border-box; 
 }
-body{
-   /* background-image: url("./Images/background.jpeg");
-   background-repeat: none;
-   background-size: cover; */
-}
+
 header{
     width: 100%;
     display: flex; 
@@ -89,6 +85,7 @@ section{
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    position: relative;
   
 }
 h1{
@@ -111,4 +108,16 @@ h1{
     width: 80%;
     height: 80vh;
     object-fit: cover;
+}
+.para1{
+    display: inline-block;
+    font-size: var(--small-font);
+    color: var(--secondary-color);
+    margin-left: 14rem;
+    margin-top: 2rem;
+    font-weight: 600;
+    position: absolute;
+    top: 33%;
+    right: 53%;
+    left: 3%;
 }
