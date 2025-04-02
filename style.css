@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=swap');
+
 :root{
     --primary-color: #0d6efd;
     --secondary-color: #e1dd97cf;
     --big-font: 3.5rem;
-    --small-font: 1.3rem;
+    --small-font: 1.6rem;
 }
 
 *{
@@ -48,8 +52,9 @@ li{
 li a{
     text-decoration: none;
     color: var(--secondary-color);
-    font-size: var(--small-font); 
+    font-size: 1.5rem;  
     font-weight:600;
+    font-family: "Big Shoulders Stencil", sans-serif;
 }
 .buttons{
     display: flex;
@@ -83,27 +88,26 @@ li a{
 section{
     width: 100%;
     height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
     position: relative;
   
 }
 h1{
     /* display: inline-block;  */
     font-size: var(--big-font);
-    color: var(--secondary-color);
+    color: #edeaa7;
     margin-left: 14rem;
     margin-top: 11rem;
     font-weight: 600;
-
+    font-family: "Space Grotesk", sans-serif;
 }
 h3{
     display: inline-block;
-    font-size: 1.2rem;
-    color: var(--secondary-color);
-    margin-left: -45rem;
+    font-size: 1.4rem;
+    color: #f1f0d9cf;
+    margin-left: -29rem;
     margin-top: 16rem;
-    font-weight: 600;
+    font-family: "Inconsolata", monospace;
 }
 .image-container{
     display: flex;
@@ -120,6 +124,7 @@ h3{
 .para1{
     display: inline-block;
     font-size: var(--small-font);
+    font-family: "Caveat", cursive;
     color: var(--secondary-color);
     margin-left: 14rem;
     margin-top: 2rem;
@@ -128,4 +133,7 @@ h3{
     text-align: justify;
     top: 33%;
     right: 53%;
+    width: 40%;
+    line-height: 1.5;
+    text-align: center;
 }
