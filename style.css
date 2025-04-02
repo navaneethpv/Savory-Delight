@@ -92,7 +92,7 @@ section{
     position: relative;
   
 }
-h1{
+section h1{
     /* display: inline-block;  */
     font-size: var(--big-font);
     color: #edeaa7;
@@ -145,11 +145,75 @@ h3{
     margin-left: 34rem;
     border-radius: 24px;
 }
-.offer-section{
-    width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    background-color: #f1f0d9cf;
+.offer-cards{
+    width: 40%;
+    height: 30vh;
+    display: flex;
     position: relative;
+    top: 70%;
+    border: #0d6efd 1px solid;
+    border-radius: 20px;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
 }
+.img-container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.image-container img {
+        border: 5px solid #ffc107;
+        border-radius: 50%;
+        width: 200px;
+        height: 200px;
+        object-position: center;
+}
+.text-container{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left:-1rem;
+}
+.text-container h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: -5%;
+    left: -12%;
+}
+.text-container p{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 37%;
+    left: 10%;
+}
+.text-container .order-btn{
+   position: absolute;
+    top: 70%;
+    right: 10%; 
+    width: 44%;
+    text-align: start;
+}
+.text-container .bx{
+    position: absolute;
+    top: 73%;
+    right: 15%;
+    font-size: 1.5rem;
+    color: #fff;
+}
+.offer-cards-duplicate{
+    width: 40%;
+    height: 30vh;
+    display: flex;
+    background-color: r;
+   
+}
+
