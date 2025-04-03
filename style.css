@@ -109,18 +109,6 @@ h3{
     margin-top: 16rem;
     font-family: "Inconsolata", monospace;
 }
-.image-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-}
-.image-container img{
-    width: 80%;
-    height: 80vh;
-    object-fit: cover;
-}
 .para1{
     display: inline-block;
     font-size: var(--small-font);
@@ -145,31 +133,36 @@ h3{
     margin-left: 34rem;
     border-radius: 24px;
 }
+.offer-card-container{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
 .offer-cards{
-    width: 40%;
+    width: 70%;
     height: 30vh;
     display: flex;
     position: relative;
-    top: 70%;
-    border: #0d6efd 1px solid;
+    top: 20%;
     border-radius: 20px;
-    margin-left: 2rem;
-    margin-top: 2rem;
+    margin-left: 8rem;
+    margin-top: -4rem;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.7);
 }
-.img-container{
-    width: 100%;
-    height: 100%;
+.image-container{
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
 }
 .image-container img {
-        border: 5px solid #ffc107;
-        border-radius: 50%;
-        width: 200px;
-        height: 200px;
-        object-position: center;
+    border: 5px solid #ffc107;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-position: center;
 }
 .text-container{
     display: flex;
@@ -178,42 +171,109 @@ h3{
     align-items: center;
     margin-top: 4rem;
     margin-left:-1rem;
+    width: 100%;
 }
 .text-container h1{
     font-size: 2.5rem;
     color: #fff;
     font-weight: 600;
     position: absolute;
-    top: -5%;
-    left: -12%;
+    top: 14%;
+    left: 7%;
 }
 .text-container p{
     font-size: 1.5rem;
     color: #fff;
     font-weight: 600;
+    text-align: center; /* Center align the text */
+    margin: 0; /* Remove default margin */
+    padding: 10px; /* Add padding for better spacing */
+    width: 100%; /* Ensure it takes full width */
     position: absolute;
-    top: 37%;
-    left: 10%;
+    right: 34%;
+    top: 60%;
 }
 .text-container .order-btn{
-   position: absolute;
-    top: 70%;
+    position: absolute;
+    top: 65%;
     right: 10%; 
     width: 44%;
     text-align: start;
 }
 .text-container .bx{
     position: absolute;
-    top: 73%;
+    top: 69%;
     right: 15%;
     font-size: 1.5rem;
     color: #fff;
 }
 .offer-cards-duplicate{
-    width: 40%;
+    width: 70%;
     height: 30vh;
     display: flex;
-    background-color: r;
-   
+    position: relative;
+    top: 20%;
+    border: #0d6efd 1px solid;
+    border-radius: 20px;
+    margin-left: 9rem;
+    margin-top: -4rem;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.image-container-duplicate{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image-container-duplicate img {
+    border: 5px solid #ffc107;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-position: center;
+}
+.text-container-duplicate{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-left:-1rem;
+    width: 100%;
+}
+.text-container-duplicate h1{
+    font-size: 2.5rem;
+    color: #fff;
+    font-weight: 600;
+    position: absolute;
+    top: 14%;
+    left: 7%;
+}
+.text-container-duplicate p{
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 600;
+    text-align: center; 
+    margin: 0;
+    padding: 10px;
+    width: 100%;
+    position: absolute;
+    right: 34%;
+    top: 60%;
+}
+.text-container-duplicate .order-btn{
+    position: absolute;
+    top: 65%;
+    right: 10%; 
+    width: 44%;
+    text-align: start;
+}
+.text-container-duplicate .bx{
+    position: absolute;
+    top: 69%;
+    right: 15%;
+    font-size: 1.5rem;
+    color: #fff;
 }
 
