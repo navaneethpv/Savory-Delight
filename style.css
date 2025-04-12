@@ -339,7 +339,7 @@ h3{
 }
 .menu-cards .menu-image-container img {
     width: 100%;
-    height:100px;
+    height:160px;
     object-fit: cover;
     border-radius: 76px 76px 76px 76px;
     filter: drop-shadow(0 0 5px #000);
@@ -356,14 +356,27 @@ h3{
     color: white;
 }
 .menu-cards .detail-container h3 {
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin: 0;
     padding: 0;
     color: white;
     width: 100%;
     text-align: left;
-    font-weight: 900;
+    /* font-weight: 900; */
     position: relative;
-    top: -41%;
-    left: 10px;
+    top: -22%;
+    left: 8%;
+}
+.menu-cards .detail-container p {
+    font-size: 1.2rem;
+    color: white;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: left;
+    position: relative;
+    top: -11%;
+    left: -4%;
+    text-align: center;
+    font-family: "Inconsolata", monospace;
 }
